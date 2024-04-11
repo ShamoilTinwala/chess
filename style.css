@@ -1,0 +1,84 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333; /* Dark gray header background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Add border to the bottom */
+    padding-bottom: 10px; /* Add padding to separate links from the border */
+  }
+  .navigation a {
+    color: #555; /* Darker gray links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  .navigation a:hover {
+    color: #333; /* Dark gray hover color */
+    border-bottom: 2px solid #007bff; /* Accent color border on hover */
+  }
+  
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    flex: 1; /* Grow to fill remaining space */
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333; /* Dark gray footer background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Align footer to bottom */
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #007bff; /* Accent Color: Deep royal blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
